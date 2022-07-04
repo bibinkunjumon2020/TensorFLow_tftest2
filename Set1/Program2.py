@@ -25,5 +25,5 @@ F=tf.reshape(D,[6,1])
 G=tf.reshape(tensor=C,shape=[10,2])  # WE can either give arg= or just give arg value
 #print(G)
 
-H=tf.random.uniform([3,4])
-#print(H)
+H=tf.random.uniform([3,4])  #random float tensor matrix with values less than 1
+print(H)
